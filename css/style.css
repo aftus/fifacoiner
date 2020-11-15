@@ -110,7 +110,7 @@ body {
   background: #6d4c41;
   display: block;
   position: relative;
-  padding: 20px;
+  padding: 20px 20px 80px 20px;
   border: 3px solid #6d4c41;
 }
 
@@ -139,6 +139,27 @@ body {
   width: 30px;
   height: 30px;
   margin: 2px 0 0 10px;
+}
+
+.foods_page .return_btn {
+  display: block;
+  width: 110px;
+  text-align: left;
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  border-radius: 50px;
+  padding-top: 8px;
+}
+
+.foods_page .return_btn i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.foods_page .return_btn:hover {
+  border: 3px solid #40241a;
+  background: #40241a;
 }
 
 @media screen and (max-width: 768px) {
