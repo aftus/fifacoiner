@@ -23,6 +23,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 999;
+  box-shadow: 0 3px 5px #40241a;
 }
 
 .header h1 {
@@ -77,6 +78,11 @@ body {
   margin: 20px auto;
   position: relative;
   padding: 20px 0;
+  border: 3px solid #6d4c41;
+}
+
+.menus a:hover {
+  border: 3px solid #ffeaa7;
 }
 
 .menus a img {
